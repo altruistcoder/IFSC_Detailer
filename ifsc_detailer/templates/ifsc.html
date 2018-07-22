@@ -1,0 +1,12 @@
+{% extends 'base.html' %}
+
+{% block content %}
+    <h1> IFSC Details Finder </h1>
+    <br>
+    <br>
+    <form method='POST' action='.'> {% csrf_token %}
+        {{ ifsc_form.as_p }}
+        <input class="btn btn-primary" type='submit'>
+    </form>
+
+{% endblock content %}

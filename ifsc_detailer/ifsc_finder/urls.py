@@ -20,6 +20,6 @@ from ifsc_detailer.views import ifsc_view
 
 
 urlpatterns = [
-    path('ifsc/', ifsc_view.as_view(), name='ifsc'),
+    path('', ifsc_view.as_view(), name='ifsc'),
     path('admin/', admin.site.urls),
 ]

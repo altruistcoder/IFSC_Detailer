@@ -41,4 +41,4 @@ IFSC Detailer is a webapp which can be used to find some of the details of any b
   python manage.py migrate
   python manage.py runserver
 ```
-8. That's it, IFSC Detailer is ready. You can run it at [http://127.0.0.1:8000](http://127.0.0.1:8000).
+8. That's it, IFSC Detailer is ready. You can run it at [http://127.0.0.1:8000/](http://127.0.0.1:8000/).
